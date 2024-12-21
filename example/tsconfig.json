@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "stockfish-bridge": ["../src/index"],
+      "stockfish-bridge/*": ["../src/*"]
+    }
+  }
+}

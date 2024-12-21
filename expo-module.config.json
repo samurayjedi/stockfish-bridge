@@ -1,0 +1,17 @@
+{
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "StockfishBridgeModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.stockfishbridge.StockfishBridgeModule"
+    ]
+  }
+}
